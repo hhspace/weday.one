@@ -1,8 +1,9 @@
-<template>
-    <div>
-        <top-menu></top-menu>
-        <router-view></router-view>
-    </div>
+<template lang="pug">
+    #app
+        header
+            top-menu
+        .container
+            router-view
 </template>
 
 <script>

@@ -1,5 +1,48 @@
 $black:       #222;
 $white:       #fff;
 $gray:        #eee;
-$shadow:      #555;
+$shadow:      #bbb;
+$link:        #0089ff;
 $linkHover:   #007de8;
+
+
+// Шрифты
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800&subset=cyrillic');
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2.25em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.5em;
+}
+h6 {
+  font-size: 1.25em;
+}
+
+.bold {
+  font-weight:800;
+}
+.semiBold {
+  font-weight: 600;
+}
+.normall {
+  font-weight:400;
+}
+.light {
+  font-weight: 300;
+}

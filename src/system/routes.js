@@ -4,6 +4,7 @@ import auth from '../pages/users/authorization.vue'
 import profile from '../pages/users/profile.vue'
 import specInfo from '../pages/specialists/info.vue'
 import specCart from '../pages/specialists/cart.vue'
+import specEula from '../pages/specialists/eula.vue'
 
 export const routes = [
     {path: '/',     component: index},
@@ -11,5 +12,6 @@ export const routes = [
     {path: '/login', component: auth},
     {path: '/profile', component: profile},
     {path: '/specialists', component: specInfo},
-    {path: '/specialists/cart', component: specCart}
+    {path: '/specialists/cart', component: specCart},
+    {path: '/specialists/eula', component: specEula}
 ]
