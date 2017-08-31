@@ -16,6 +16,17 @@
                                     router-link(tag="a" to="#") Документация
                                 li
                                     router-link(tag="a" to="/specialists/eula") Пользовательское соглашение
+                        li
+                            a Молодоженам
+                            ul.dropdown
+                                li
+                                    router-link(tag="a" to="/wd") Информация
+                                li
+                                    router-link(tag="a" to="/wd/category") Категории
+                                li
+                                    router-link(tag="a" to="/wd/specialists") Список специалистов
+                                li
+                                    router-link(tag="a" to="/wd/specialists/cart") Карточка специалистов для молодоженов
             .menu__right
                 ul.menu__right-user
                     //Для не зарегистрированных пользователей

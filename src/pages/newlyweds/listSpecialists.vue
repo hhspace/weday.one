@@ -1,8 +1,6 @@
 <template lang="pug">
-    .home
-        p Главная
-        router-link(tag="a" to="/post")
-            h3 Вход на сайт
+    .page.listSpecialists
+        p Список специалистов в категории с фильтрами и сортировкой
 </template>
 
 <script>

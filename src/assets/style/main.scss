@@ -121,9 +121,10 @@ body {
 header {
   padding: 15px 0;
   background-color: $white;
-  border-bottom: 1px solid $shadow;
-  box-shadow: 0 1px 2px $gray;
+  box-shadow: 0 2px 3px $shadow;
   font-size:16px;
+  width: 100%;
+  position: fixed;
 
   .menu {
     display: inline-block;
@@ -140,7 +141,7 @@ header {
           font-size: 24px;
           line-height: 24px;
           margin-right: 20px;
-          color: $link;
+          color: $linkHover;
           font-weight: 800;
           &:hover, 
           &:focus {
@@ -149,6 +150,7 @@ header {
 
           span {
             font-weight: 300;
+            color: $link;
           }
         }
       }
@@ -165,7 +167,7 @@ header {
           li {
             margin-right: 10px;
             float: left;
-            line-height:32px;
+            line-height:31px;
             &:last-child {
               margin-right:0;
             }
@@ -197,7 +199,7 @@ header {
         li {
           float: left;
           margin-right: 10px;
-          line-height:32px;
+          line-height:31px;
 
           &:last-child {
             margin-right: 0;
@@ -233,4 +235,7 @@ header {
       }
     }
   }
+}
+.page {
+  padding-top: 68px;
 }

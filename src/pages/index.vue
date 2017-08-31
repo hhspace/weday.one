@@ -1,5 +1,5 @@
 <template lang="pug">
-    .home
+    .page.home
         h1 Тест
         h2 Тест
         h3 Тест

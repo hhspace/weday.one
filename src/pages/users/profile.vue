@@ -1,5 +1,5 @@
 <template lang="pug">
-    .profile
+    .page.profile
         p Профиль
 </template>
 

@@ -1,5 +1,5 @@
 <template lang="pug">
-    .specialists.info
+    .page.specialists.info
         p Специалистам
 </template>
 

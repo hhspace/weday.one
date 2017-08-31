@@ -1,5 +1,5 @@
 <template lang="pug">
-    .specialists.cart
+    .page.specialists.cart
         p Карточка специалиста
 </template>
 

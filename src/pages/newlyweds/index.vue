@@ -1,8 +1,6 @@
 <template lang="pug">
-    .home
-        p Главная
-        router-link(tag="a" to="/post")
-            h3 Вход на сайт
+    .page.indexWeds
+        p Главная для молодоженов
 </template>
 
 <script>

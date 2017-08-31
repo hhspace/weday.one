@@ -1,8 +1,6 @@
 <template lang="pug">
-    .home
-        p Главная
-        router-link(tag="a" to="/post")
-            h3 Вход на сайт
+    .page.cartSpec
+        p Карточка специалистов для молодоженов
 </template>
 
 <script>

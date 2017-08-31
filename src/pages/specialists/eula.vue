@@ -1,5 +1,5 @@
 <template lang="pug">
-    .specialists.eula
+    .page.specialists.eula
         p Пользовательское соглашение
 </template>
 

@@ -1,5 +1,5 @@
 <template lang="pug">
-    .registration
+    .page.registration
         p Регистрация
 </template>
 

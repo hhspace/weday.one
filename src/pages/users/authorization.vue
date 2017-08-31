@@ -1,5 +1,5 @@
 <template lang="pug">
-    .authorization
+    .page.authorization
         p Авторизация
 </template>
 
