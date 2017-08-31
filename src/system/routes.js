@@ -9,6 +9,9 @@ import cartSpec from '../pages/newlyweds/cartSpecialists.vue'
 import category from '../pages/newlyweds/category.vue'
 import indexWed from '../pages/newlyweds/index.vue'
 import listSpec from '../pages/newlyweds/listSpecialists.vue'
+import pageNotFound from '../pages/404.vue'
+
+const redirectPath = '/'
 
 export const routes = [
     {path: '/',     component: index},
@@ -21,5 +24,6 @@ export const routes = [
     {path: '/wd', component: indexWed},
     {path: '/wd/category', component: category},
     {path: '/wd/specialists', component: listSpec},
-    {path: '/wd/specialists/cart', component: cartSpec}
+    {path: '/wd/specialists/cart', component: cartSpec},
+    {path: '/*', component: pageNotFound}
 ]
