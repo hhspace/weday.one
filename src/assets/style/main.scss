@@ -193,4 +193,9 @@ body {
 }
 .page {
   padding-top: 68px;
+
+  &.authorization {
+    background-color: $gray;
+    height: 100vh;
+  }
 }
