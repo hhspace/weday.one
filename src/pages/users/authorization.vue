@@ -1,10 +1,16 @@
 <template lang="pug">
     .page.authorization
-        p Авторизация
+        auth-form
+
 </template>
 
 <script>
-
+    import authForm from '../../components/authForm.vue'
+    export default {
+        components: {
+            authForm
+        }
+    }
 </script>
 
 <style lang="scss">

@@ -1,14 +1,3 @@
 {
-  "presets": [
-    [
-      "env",
-      {
-        "targets": {
-          "node": "current",
-          "chrome": 56,
-          "browsers": ["> 5%", "ie >= 7"]
-        }
-      }
-    ]
-  ]
+  "presets": ["env"]
 }
